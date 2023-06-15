@@ -5,3 +5,4 @@ project(SIMDInterface)
 set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(apps)
+add_subdirectory(src)
