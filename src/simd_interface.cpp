@@ -2,14 +2,9 @@
 
 #if defined(__x86_64)
 
-#include <immintrin.h>
+#include "sse.h"
 
 typedef __m128 vec_float32_t;
-
-void addf32_4_sse (__m128* a, __m128* b, __m128* c, void* ctx)
-{
-  *c = _mm_add_ps (*a, *b);
-}
 
 #endif
 
